@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html>
-<body>
+    <body>
 
-<?php 
-$x = 75;
-$y = 25; 
+    <?php 
+    // deklarasi
+    $x = 75;
+    $y = 25; 
+    // membuat fungsi
+    function addition() {
+        // menjumlahkan variabel x dan y
+        $GLOBALS['z'] = $GLOBALS['x'] + $GLOBALS['y'];
+    }
+    // memanggil fungsi
+    addition();
+    // mencetak z
+    echo $z;
+    ?>
 
-function addition() {
-    $GLOBALS['z'] = $GLOBALS['x'] + $GLOBALS['y'];
-}
-
-addition();
-echo $z;
-?>
-
-</body>
+    </body>
 </html>

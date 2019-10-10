@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html>
-<body>
+    <body>
 
-<?php
-$age = array("Peter"=>"35", "Ben"=>"37", "Joe"=>"43");
-ksort($age);
+    <?php
+    $age = array("Peter"=>"35", "Ben"=>"37", "Joe"=>"43");
+    // mengurutkan data asosiatif dalam urutan dan menurut nilai
+    ksort($age);
+    foreach($age as $x => $x_value) {
+        echo "Key=" . $x . ", Value=" . $x_value;
+        echo "<br>";
+    }
+    ?>
 
-foreach($age as $x => $x_value) {
-    echo "Key=" . $x . ", Value=" . $x_value;
-    echo "<br>";
-}
-?>
-
-</body>
+    </body>
 </html>

@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html>
-<body>
+    <body>
 
-<?php 
-$x = 1;
+    <?php
+    // deklarasi variabel
+    $x = 1;
+    // menjalankan block do terlebih dahulu sebelum di eksekusi
+    do {
+        // mencetak kalimat
+        echo "The number is: $x <br>";
+        $x++;
+        // jika x masih kurang dari sama dengan 5 maka aka terus di ulang
+    } while ($x <= 5);
+    ?>
 
-do {
-    echo "The number is: $x <br>";
-    $x++;
-} while ($x <= 5);
-?>
-
-</body>
+    </body>
 </html>

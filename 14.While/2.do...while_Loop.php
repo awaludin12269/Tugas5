@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html>
-<body>
+    <body>
 
-<?php 
-$x = 6;
+    <?php
+    // deklarasi 
+    $x = 6;
 
-do {
-    echo "The number is: $x <br>";
-    $x++;
-} while ($x <= 5);
-?>
+    do {
+        echo "The number is: $x <br>";
+        $x++;
+    } while ($x <= 5);
+    ?>
 
-</body>
+    </body>
 </html>

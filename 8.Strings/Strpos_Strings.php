@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html>
-<body>
+    <body>
 
-<?php
-echo strpos("Hello world!", "world");
-?> 
- 
-</body>
+    <?php
+    // menemukan letak kata atau posisi string
+    echo strpos("Hello world!", "world");
+    ?> 
+    
+    </body>
 </html>

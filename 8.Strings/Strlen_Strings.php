@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html>
-<body>
+    <body>
 
-<?php
-echo strlen("Hello world!");
-?> 
- 
-</body>
+    <?php
+    // menampilkan jumlah karakter
+    echo strlen("Hello world!");
+    ?> 
+    
+    </body>
 </html>

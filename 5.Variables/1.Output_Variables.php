@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html>
-<body>
+    <body>
 
-<?php
-$txt = "W3Schools.com";
-echo "I love $txt!";
-?>
+    <?php
+    // deklarasi variabel txt
+    $txt = "W3Schools.com";
+    // menampilkan string dengan menggabung string dengan variabel
+    echo "I love $txt!";
+    ?>
 
-</body>
+    </body>
 </html>

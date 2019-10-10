@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html>
-<body>
+    <body>
 
-<?php
-$x = 5;
-$y = 4;
-echo $x + $y;
-?>
+    <?php
+    $x = 5;
+    $y = 4;
+    // menjumlahkan x dan y
+    echo $x + $y;
+    ?>
 
-</body>
+    </body>
 </html>

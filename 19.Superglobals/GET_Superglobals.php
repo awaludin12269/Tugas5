@@ -1,9 +1,10 @@
 <html>
-<body>
+    <body>
 
-<?php
-echo "Study " . $_GET['subject'] . " at " . $_GET['web'];
-?>
+    <?php
+    // mencetak data dari superglobal
+    echo "Study " . $_GET['subject'] . " at " . $_GET['web'];
+    ?>
 
-</body>
+    </body>
 </html>

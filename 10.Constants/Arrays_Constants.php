@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html>
-<body>
+    <body>
 
-<?php
-define("cars", [
-    "Alfa Romeo",
-    "BMW",
-    "Toyota"
-]);
-echo cars[0];
-?> 
+    <?php
+    // membuat constant dan diisi dengan array
+    define("cars", [
+        "Alfa Romeo",
+        "BMW",
+        "Toyota"
+    ]);
+    // memanggi constant dan array yang dipanggil
+    echo cars[0];
+    ?> 
 
-</body>
+    </body>
 </html>

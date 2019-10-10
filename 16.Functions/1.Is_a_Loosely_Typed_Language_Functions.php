@@ -1,5 +1,7 @@
 <?php
+// membuat fungsi dan parameter
 function addNumbers(int $a, int $b) {
+    // menambahkan variabel
     return $a + $b;
 }
 echo addNumbers(5, "5 days"); 

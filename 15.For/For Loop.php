@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html>
-<body>
+  <body>
 
-<?php  
-for ($x = 0; $x <= 10; $x++) {
-  echo "The number is: $x <br>";
-}
-?>  
+  <?php
+  // menentukan nilai awal x, menentukan batas looping, dan increment 
+  for ($x = 0; $x <= 10; $x++) {
+  // mencetak
+    echo "The number is: $x <br>";
+  }
+  ?>  
 
-</body>
+  </body>
 </html>

@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html>
-<body>
+    <body>
 
-<?php
-function writeMsg() {
-    echo "Hello world!";
-}
+    <?php
+    // membuat fungsi
+    function writeMsg() {
+        // mencetak kalimat
+        echo "Hello world!";
+    }
+    // memanggil fungsi
+    writeMsg();
+    ?>
 
-writeMsg();
-?>
-
-</body>
+    </body>
 </html>

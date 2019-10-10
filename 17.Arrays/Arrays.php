@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html>
-<body>
+    <body>
 
-<?php
-$cars = array("Volvo", "BMW", "Toyota"); 
-echo "I like " . $cars[0] . ", " . $cars[1] . " and " . $cars[2] . ".";
-?>
+    <?php
+    // deklarasi cars dengan nilai array
+    $cars = array("Volvo", "BMW", "Toyota"); 
+    // mencetak masing masing dari array
+    echo "I like " . $cars[0] . ", " . $cars[1] . " and " . $cars[2] . ".";
+    ?>
 
-</body>
+    </body>
 </html>

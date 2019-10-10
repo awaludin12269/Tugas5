@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html>
-<body>
+  <body>
 
-<?php  
-$colors = array("red", "green", "blue", "yellow"); 
+  <?php
+  // deklarasi color dengan nilai array  
+  $colors = array("red", "green", "blue", "yellow"); 
+  // mengulang colors sesuai dengan jumlah arraynya
+  foreach ($colors as $value) {
+    // mencetak nilai
+    echo "$value <br>";
+  }
+  ?>  
 
-foreach ($colors as $value) {
-  echo "$value <br>";
-}
-?>  
-
-</body>
+  </body>
 </html>

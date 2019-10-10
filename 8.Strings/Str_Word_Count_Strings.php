@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html>
-<body>
+    <body>
 
-<?php
-echo str_word_count("Hello world!");
-?> 
- 
-</body>
+    <?php
+    // mengetahui jumlah kata dalam string
+    echo str_word_count("Hello world!");
+    ?> 
+    
+    </body>
 </html>

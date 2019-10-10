@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 <html>
-<body>
+    <body>
 
-<?php
-$cars = array("Volvo", "BMW", "Toyota");
-sort($cars);
+    <?php
+    // deklarasi array
+    $cars = array("Volvo", "BMW", "Toyota");
+    // menampilkan data dari yang terkecil
+    sort($cars);
+    // cari jumlah array
+    $clength = count($cars);
+    // looping array
+    for($x = 0; $x < $clength; $x++) {
+        // cetak array
+        echo $cars[$x];
+        echo "<br>";
+    }
+    ?>
 
-$clength = count($cars);
-for($x = 0; $x < $clength; $x++) {
-    echo $cars[$x];
-    echo "<br>";
-}
-?>
-
-</body>
+    </body>
 </html>

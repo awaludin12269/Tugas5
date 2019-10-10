@@ -1,27 +1,31 @@
 <!DOCTYPE html>
 <html>
-<body>
+    <body>
 
-<?php
-// Check if the variable is numeric   
-$x = 5985;
-var_dump(is_numeric($x));
+    <?php
+    // Check if the variable is numeric   
+    $x = 5985;
+    // memastikan apakah x adalah numerik
+    var_dump(is_numeric($x));
 
-echo "<br>";
+    echo "<br>";
 
-$x = "5985";
-var_dump(is_numeric($x));
+    $x = "5985";
+    // memastikan apakah x adalah numerik
+    var_dump(is_numeric($x));
 
-echo "<br>";
+    echo "<br>";
 
-$x = "59.85" + 100;
-var_dump(is_numeric($x));
+    $x = "59.85" + 100;
+    // memastikan apakah x adalah numerik
+    var_dump(is_numeric($x));
 
-echo "<br>";
+    echo "<br>";
 
-$x = "Hello";
-var_dump(is_numeric($x));
-?>  
+    $x = "Hello";
+    // memastikan apakah x adalah numerik
+    var_dump(is_numeric($x));
+    ?>  
 
-</body>
+    </body>
 </html>

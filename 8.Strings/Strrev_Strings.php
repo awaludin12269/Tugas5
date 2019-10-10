@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html>
-<body>
+    <body>
 
-<?php
-echo strrev("Hello world!");
-?> 
- 
-</body>
+    <?php
+    // membalikkan kata
+    echo strrev("Hello world!");
+    ?> 
+    
+    </body>
 </html>

@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html>
-<body>
+    <body>
 
-<?php
-// case-insensitive constant name
-define("GREETING", "Welcome to W3Schools.com!", true);
-echo greeting;
-?> 
+    <?php
+    // case-insensitive constant name
+    // membuat constant
+    define("GREETING", "Welcome to W3Schools.com!", true);
+    // memanggil constant
+    echo greeting;
+    ?> 
 
-</body>
+    </body>
 </html>

@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html>
-<body>
+    <body>
 
-<?php
-$x = 5;
-$y = 10;
+    <?php
+    // deklarasi x dan y
+    $x = 5;
+    $y = 10;
 
-function myTest() {
-    $GLOBALS['y'] = $GLOBALS['x'] + $GLOBALS['y'];
-} 
+    function myTest() {
+        // membuat global variabel dan menjumlahkan x dan y
+        $GLOBALS['y'] = $GLOBALS['x'] + $GLOBALS['y'];
+    } 
+    // memanggil fungsi mytest
+    myTest();
+    // menampilkan nilai dari variabel y
+    echo $y;
+    ?>
 
-myTest();
-echo $y;
-?>
-
-</body>
+    </body>
 </html>

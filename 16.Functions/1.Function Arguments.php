@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html>
-<body>
+    <body>
 
-<?php
-function familyName($fname) {
-    echo "$fname Refsnes.<br>";
-}
+    <?php
+    // membuat fungsi dengan parameter
+    function familyName($fname) {
+        // mencetak string
+        echo "$fname Refsnes.<br>";
+    }
+    // memanggil fungsi dan mengirimkan parameter
+    familyName("Jani");
+    familyName("Hege");
+    familyName("Stale");
+    familyName("Kai Jim");
+    familyName("Borge");
+    ?>
 
-familyName("Jani");
-familyName("Hege");
-familyName("Stale");
-familyName("Kai Jim");
-familyName("Borge");
-?>
-
-</body>
+    </body>
 </html>
